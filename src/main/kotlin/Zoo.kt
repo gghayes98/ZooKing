@@ -1,6 +1,5 @@
 package org.example
 
-import javax.xml.crypto.Data
 import kotlin.random.Random
 
 class Zoo(firstHabitat: Habitat) {
