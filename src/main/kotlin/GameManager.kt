@@ -110,7 +110,7 @@ class GameManager {
                     }
                     // Challenger Attack
                     if (challengerCreature.getHealth() > 0) {
-                        val challengerAttack: Int = Random.nextInt(0, 3)
+                        val challengerAttack: Int = Random.nextInt(0, 2)
                         if (challengerCreature.useAbility(challengerAttack).getDamage() > 0)
                         // Positive Damage
                             challengerCreature.addXP(
